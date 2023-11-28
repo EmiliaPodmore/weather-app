@@ -3,13 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+     <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Raleway:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
     <title>Weather App</title>
   </head>
   <body>
+    <div class="weather-app">
     <header>
-      <form>
-        <input type="search" placeholder="Enter a city..." required />
-        <input type="submit" value="search" />
+      <form class="search-form">
+        <input type="search" placeholder="Enter a city..." required class="search-input"/>
+        <input type="submit" value="Search" class="search-button"/>
       </form>
     </header>
     <main>
@@ -27,14 +35,16 @@
       This project was coded by
       <a href="https://github.com/EmiliaPodmore" target="_blank">
         Emilia Podmore</a
-      >, code hosted on
+      >, <br/>
+      code hosted on
       <a href="https://github.com/EmiliaPodmore/weather-app" target="_blank"
         >GitHub</a
       >
       and website hosted on
       <a href="https://daybreakweatherapp.netlify.app/" target="_blank"
-        >Netlify</a
-      >
+        >Netlify</a>
     </footer>
+  </div>
+   </body>
   </body>
 </html>

@@ -1,0 +1,83 @@
+body {
+  background: linear-gradient(
+    300deg,
+    #fbe88a,
+    #f9d799,
+    #f7caa4,
+    #5cbdbd,
+    #128496
+  );
+  background-size: 240% 240%;
+  animation: gradient-animation 24s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.weather-app {
+  background: #ffff;
+  max-width: 575px;
+  margin: 30px auto;
+  padding: 40px;
+  border-radius: 10px;
+}
+header {
+  border-bottom: 1px solid #f9f7fe;
+  padding-bottom: 30px;
+}
+main {
+  padding: 10px 0;
+}
+.search-input {
+  background-color: #f1f3f6;
+  color: #757575;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1;
+  width: 75%;
+  padding: 20px;
+  border: none;
+  border-radius: 6px;
+}
+.search-button {
+  background-color: #24bbc2;
+  color: white;
+  font-size: 16px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  line-height: 1;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  padding: 20px;
+  transition: all 150ms ease-in-out;
+}
+.search-button:hover {
+  cursor: pointer;
+  background-color: #128496;
+}
+footer {
+  color: #757575;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  padding-top: 16px;
+  border-top: 1px solid #f9f7fe;
+  text-align: center;
+}
+a {
+  color: #aeccc6;
+}
+a:hover {
+  cursor: pointer;
+}
