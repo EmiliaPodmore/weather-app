@@ -76,16 +76,15 @@ main {
   margin: 0;
 }
 .current-date {
-  color: #546e72;
-  font-size: 22px;
-  font-family: "Poppins", sans-serif;
+  color: black;
+  font-size: 21px;
+  font-family: "Nunito", sans-serif;
   line-height: 2.4;
 }
 .current-details {
   color: #757575;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
-  font-size: 22px;
+  font-family: "Nunito", sans-serif;
+  font-size: 21px;
   line-height: 32px;
   margin: 6px auto;
 }
@@ -115,7 +114,7 @@ main {
   margin-top: 22px;
 }
 footer {
-  color: #a9a7b3;
+  color: #9ca8a8;
   text-align: center;
   font-size: 14px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
