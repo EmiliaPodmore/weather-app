@@ -30,7 +30,7 @@ body {
   border-radius: 10px;
 }
 header {
-  border-bottom: 1px solid #f9f7fe;
+  border-bottom: 1px solid #f1f3f6;
   padding-bottom: 30px;
 }
 main {
@@ -77,14 +77,14 @@ main {
 }
 .current-date {
   color: black;
-  font-size: 21px;
+  font-size: 18px;
   font-family: "Nunito", sans-serif;
   line-height: 2.4;
 }
 .current-details {
   color: #757575;
   font-family: "Nunito", sans-serif;
-  font-size: 21px;
+  font-size: 18px;
   line-height: 32px;
   margin: 6px auto;
 }
@@ -121,7 +121,7 @@ footer {
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
   padding-top: 16px;
-  border-top: 1px solid #f9f7fe;
+  border-top: 1px solid #f1f3f6;
   text-align: center;
 }
 a {
