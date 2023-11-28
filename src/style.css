@@ -38,7 +38,6 @@ main {
 }
 .search-input {
   background-color: #f1f3f6;
-  color: #757575;
   font-size: 16px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
@@ -78,12 +77,12 @@ main {
 .current-date {
   color: black;
   font-size: 18px;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 2.4;
 }
 .current-details {
   color: #757575;
-  font-family: "Nunito", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 18px;
   line-height: 32px;
   margin: 6px auto;
@@ -114,7 +113,7 @@ main {
   margin-top: 22px;
 }
 footer {
-  color: #9ca8a8;
+  color: #c4c6c7;
   text-align: center;
   font-size: 14px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
