@@ -71,12 +71,13 @@ footer {
   font-size: 14px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  line-height: 1.5;
   padding-top: 16px;
   border-top: 1px solid #f9f7fe;
   text-align: center;
 }
 a {
-  color: #aeccc6;
+  color: #24bbc2;
 }
 a:hover {
   cursor: pointer;
