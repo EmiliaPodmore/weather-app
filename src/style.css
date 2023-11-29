@@ -77,12 +77,12 @@ main {
 .current-date {
   color: black;
   font-size: 18px;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   line-height: 2.4;
 }
 .current-details {
   color: #757575;
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 18px;
   line-height: 32px;
   margin: 6px auto;
@@ -115,7 +115,7 @@ main {
 footer {
   color: #c4c6c7;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   line-height: 1.5;
