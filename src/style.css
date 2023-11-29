@@ -75,7 +75,7 @@ main {
   margin: 0;
 }
 .current-date {
-  color: black;
+  color: #000;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   line-height: 2.4;
