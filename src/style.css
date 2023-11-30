@@ -4,6 +4,7 @@ body {
     #fbe88a,
     #f9d799,
     #f7caa4,
+    #b6cbc2,
     #5cbdbd,
     #128496
   );
@@ -89,14 +90,14 @@ main {
   justify-content: space-between;
 }
 .current-temperature-icon {
-  width: 90px;
-  height: 90px;
-  position: relative;
+  max-width: 90px;
+  max-height: 90px;
+  vertical-align: middle;
 }
 .current-temperature-value {
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 72px;
+  font-size: 74px;
 }
 .current-temperature-unit {
   font-size: 30px;
@@ -112,7 +113,7 @@ main {
   text-transform: capitalize;
 }
 footer {
-  color: #c4c6c7;
+  color: #757575;
   text-align: center;
   font-size: 12px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
