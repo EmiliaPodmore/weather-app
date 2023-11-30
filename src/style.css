@@ -89,11 +89,9 @@ main {
   justify-content: space-between;
 }
 .current-temperature-icon {
-  font-size: 40px;
+  width: 90px;
+  height: 90px;
   position: relative;
-  top: -8px;
-  margin-top: 22px;
-  margin-right: 12px;
 }
 .current-temperature-value {
   font-family: "Raleway", sans-serif;
@@ -112,7 +110,6 @@ main {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
-  flex-wrap: nowrap;
 }
 footer {
   color: #c4c6c7;
