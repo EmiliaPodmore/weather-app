@@ -92,6 +92,7 @@ main {
 }
 .current-temperature-container {
   display: flex;
+  justify-content: space-between;
 }
 .current-temperature-icon {
   font-size: 40px;
@@ -111,6 +112,11 @@ main {
   font-family: "Raleway", sans-serif;
   position: relative;
   margin-top: 22px;
+}
+.current-weather-description {
+  color: #757575;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
 }
 footer {
   color: #c4c6c7;
