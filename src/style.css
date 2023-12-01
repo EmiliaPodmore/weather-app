@@ -102,14 +102,14 @@ main {
   font-size: 74px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
-  margin-right: 10px;
+  margin-right: 8px;
 }
 .current-temperature-unit {
   font-size: 30px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   margin-top: 22px;
-  margin-right: 30px;
+  margin-right: 24px;
 }
 .current-weather-description {
   color: #757575;
