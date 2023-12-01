@@ -102,6 +102,7 @@ main {
   font-size: 74px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
+  margin-right: 10px;
 }
 .current-temperature-unit {
   font-size: 30px;
