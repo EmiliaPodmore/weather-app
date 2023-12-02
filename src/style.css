@@ -70,10 +70,13 @@ main {
   justify-content: space-between;
 }
 .current-city {
-  font-size: 52px;
+  font-size: 50px;
   font-weight: bold;
   font-family: "Raleway", sans-serif;
   margin: 0;
+}
+.current-date {
+  font-weight: 600;
 }
 .current-details {
   color: #757575;
@@ -99,17 +102,17 @@ main {
   padding-right: 20px;
 }
 .current-temperature-value {
-  font-size: 74px;
+  font-size: 72px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 .current-temperature-unit {
-  font-size: 30px;
+  font-size: 28px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   margin-top: 22px;
-  margin-right: 42px;
+  margin-right: 48px;
 }
 .current-weather-description {
   color: #757575;
