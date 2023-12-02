@@ -99,7 +99,8 @@ main {
 .current-temperature-icon {
   max-width: 80px;
   max-height: 80px;
-  padding-right: 20px;
+  padding-right: 16px;
+  margin-right: 6px;
 }
 .current-temperature-value {
   font-size: 72px;
