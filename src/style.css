@@ -5,7 +5,7 @@ body {
     #f9d799,
     #f7caa4,
     #b6cbc2,
-    #5cbdbd,
+    #24bbc2,
     #128496
   );
   background-size: 240% 240%;
@@ -106,14 +106,14 @@ main {
   font-size: 72px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
-  margin-right: 6px;
+  margin-right: 8px;
 }
 .current-temperature-unit {
   font-size: 28px;
   font-weight: 600;
   font-family: "Raleway", sans-serif;
   margin-top: 22px;
-  margin-right: 38px;
+  margin-right: 24px;
 }
 .current-weather-description {
   color: #757575;
@@ -121,8 +121,29 @@ main {
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
 }
+.weather-forecast {
+  text-align: center;
+  margin-top: 20px;
+}
+.weather-forecast-date {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.weather-forecast-temperature {
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.weather-forecast-temperature-max {
+  color: #24bbc2;
+}
+.weather-forecast-temperature-min {
+  color: #757575;
+  opacity: 0.6;
+}
 footer {
-  color: #cccc;
+  color: #acacac;
   font-size: 13px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
