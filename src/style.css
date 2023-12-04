@@ -4,14 +4,13 @@ body {
     #fbe88a,
     #f9d799,
     #f7caa4,
-    #b6cbc2,
+    #c4e3cb,
     #24bbc2,
     #128496
   );
   background-size: 240% 240%;
   animation: gradient-animation 24s ease infinite;
 }
-
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -156,9 +155,9 @@ footer {
   border-top: 1px solid #f1f3f6;
 }
 a {
-  color: #24bbc2;
+  color: #c4e3cb;
 }
 a:hover {
   cursor: pointer;
-  color: #128496;
+  color: #8aae92;
 }
