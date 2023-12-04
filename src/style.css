@@ -135,12 +135,15 @@ main {
 .weather-forecast-temperature {
   font-size: 16px;
   font-family: "Poppins", sans-serif;
+  letter-spacing: 2px;
 }
 .weather-forecast-temperature-max {
   color: #24bbc2;
+  font-weight: 600;
 }
 .weather-forecast-temperature-min {
   color: #757575;
+
   opacity: 0.6;
 }
 footer {
