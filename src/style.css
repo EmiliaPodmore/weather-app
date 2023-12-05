@@ -1,17 +1,17 @@
 body {
   background: linear-gradient(
     300deg,
-    #fbe88a,
     #f9d799,
     #f7caa4,
     #c4e3cb,
-    #8aae92,
+    #6acfd4,
     #24bbc2,
-    #128496
+    #fbe88a
   );
-  background-size: 240% 240%;
-  animation: gradient-animation 40s ease infinite;
+  background-size: 360% 360%;
+  animation: gradient-animation 42s ease infinite;
 }
+
 @keyframes gradient-animation {
   0% {
     background-position: 0% 50%;
@@ -141,7 +141,7 @@ main {
 }
 .weather-forecast-temperatures {
   display: flex;
-  color: #a7a7a7;
+  color: #6acfd4;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-align: center;
