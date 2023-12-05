@@ -116,8 +116,7 @@ main {
   margin-right: 24px;
 }
 .current-weather-description {
-  color: #757575;
-  opacity: 0.7;
+  color: #a7a7a7;
   font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
@@ -127,9 +126,7 @@ main {
   justify-content: space-around;
   text-align: center;
   margin-top: 30px;
-}
-.weather-forecast-day {
-  margin-top: 30px;
+  margin-bottom: 20px;
 }
 .weather-forecast-date {
   color: #757575;
@@ -142,17 +139,21 @@ main {
   display: block;
   margin: 0 auto;
 }
-.weather-forecast-temperature {
+.weather-forecast-temperatures {
   display: flex;
-  color: #24bbc2;
+  color: #a7a7a7;
   font-size: 16px;
   font-family: "Poppins", sans-serif;
   text-align: center;
+}
+.weather-forecast-temperature {
   padding: 0 10px;
 }
+.weather-forecast-temperature strong {
+  color: #24bbc2;
+}
 footer {
-  color: #757575;
-  opacity: 0.7;
+  color: #a7a7a7;
   font-size: 13px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
