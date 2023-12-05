@@ -4,13 +4,13 @@ body {
     #fbe88a,
     #f9d799,
     #f7caa4,
-    #8aae92,
     #c4e3cb,
+    #8aae92,
     #24bbc2,
     #128496
   );
   background-size: 240% 240%;
-  animation: gradient-animation 24s ease infinite;
+  animation: gradient-animation 40s ease infinite;
 }
 @keyframes gradient-animation {
   0% {
