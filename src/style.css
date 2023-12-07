@@ -25,14 +25,14 @@ body {
 }
 .weather-app {
   background: #ffff;
-  max-width: 580px;
+  max-width: 590px;
   margin: 20px auto;
   padding: 40px;
   border-radius: 10px;
 }
 header {
   border-bottom: 1px solid #f1f3f6;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
 }
 main {
   padding: 10px 0;
@@ -118,7 +118,7 @@ main {
 }
 .current-weather-description {
   color: #a7a7a7;
-  font-size: 16px;
+  font-size: 18px;
   font-family: "Poppins", sans-serif;
   text-transform: capitalize;
 }
@@ -149,15 +149,16 @@ main {
   text-align: center;
   margin-top: 10px;
 }
-.weather-forecast-temperature {
+.weather-forecast-temperature-max {
+  color: #24bbc2;
+  font-weight: 600;
+  text-align: center;
+  padding: 0 17px;
+}
+.weather-forecast-temperature-min {
   color: #6acfd4;
   text-align: center;
-  padding: 0 6px;
-}
-.weather-forecast-temperature strong {
-  color: #24bbc2;
-  text-align: center;
-  padding: 0 6px;
+  padding: 0 2px;
 }
 footer {
   color: #a7a7a7;
@@ -165,8 +166,7 @@ footer {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
   text-align: center;
-  line-height: 1.5;
-  padding-top: 10px;
+  padding-top: 20px;
   border-top: 1px solid #f1f3f6;
 }
 a {
