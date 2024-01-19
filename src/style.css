@@ -16,7 +16,7 @@ body {
   }
 }
 .weather-app {
-  background: #ffff;
+  background: #fafafa;
   max-width: 600px;
   margin: 20px auto;
   padding: 34px;
@@ -42,7 +42,7 @@ main {
 }
 .search-button {
   background-color: #24bbc2;
-  color: #ffff;
+  color: #fafafa;
   font-size: 16px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
