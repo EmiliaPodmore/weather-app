@@ -163,9 +163,9 @@ footer {
   border-top: 1px solid #f1f3f6;
 }
 a {
-  color: #b5dec9;
+  color: #a7a7a7;
 }
 a:hover {
   cursor: pointer;
-  color: #547760;
+  color: #b5dec9;
 }
